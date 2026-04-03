@@ -1,0 +1,16 @@
+{
+  "name": "sentinel-medium-test",
+  "version": "1.0.0",
+  "description": "Repositorio de prueba para Sentinel (Nivel Medio)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "echo \"[TEST] Simulación de script preinstall malicioso intentando ejecutarse...\" && node -e \"console.log('Test Node env executed')\"",
+    "postinstall": "ping 127.0.0.1 -n 2 > nul"
+  },
+  "author": "Sentinel Tests",
+  "license": "ISC",
+  "dependencies": {
+    "react-dom-parser": "^1.0.0" 
+  }
+}
